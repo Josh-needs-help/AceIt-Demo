@@ -14,21 +14,18 @@
   <title>project</title>
   <link rel="manifest" href="manifest.json">
   <style>
-    html, body {
-      overscroll-behavior-x: none;
-      overscroll-behavior-y: none;
-      touch-action: none;
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      width: 100%;
-    }
-    flt-glass-pane {
-      touch-action: none;
-    }
+    html, body, flt-glass-pane {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overscroll-behavior: contain;
+  touch-action: pan-y;
+}
   </style>
 </head>
 <body>
   <script src="flutter_bootstrap.js" async></script>
 </body>
 </html>
+
