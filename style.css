@@ -1,15 +1,15 @@
-body {
+html, body {
+  height: 100%;
+  margin: 0;
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  margin: 0;
-  background: #f0f0f0;
+  background-color: #000; 
 }
 
 #flutter-container {
-  width: 390px;   /* phone width */
-  height: 844px;  /* phone height */
-  border: 1px solid #ccc;
+  width: 375px;   
+  height: 812px;  
   overflow: hidden;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5); /* optional for preview */
 }
