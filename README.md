@@ -15,6 +15,6 @@ This app was built to help me and others with studying for memorization-heavy co
 - **User Account Management:** Firebase
 
 ## Live Demo
-[Try the demo here](<Link>)  
+[Try the demo here](<[Link](https://josh-needs-help.github.io/AceIt-Demo/)>)  
 
 > **Note:** Notes directly from the camera are not supported in this demo.
